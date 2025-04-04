@@ -6,7 +6,7 @@ The solver is optimized for high accuracy and efficiency by adapting both the or
 
 ---
 
-## 🚀 Features
+## Features
 
 - Variable-order Adams methods (orders 2 through 9)
 - Adaptive time-stepping based on local truncation error (LTE)
@@ -17,7 +17,7 @@ The solver is optimized for high accuracy and efficiency by adapting both the or
 
 ---
 
-## 📁 File Overview
+## File Overview
 
 | File | Description |
 |------|-------------|
@@ -30,7 +30,7 @@ The solver is optimized for high accuracy and efficiency by adapting both the or
 
 ---
 
-## 🧪 Usage
+## Usage
 
 ### Basic Syntax
 
