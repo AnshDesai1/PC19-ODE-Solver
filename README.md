@@ -37,7 +37,7 @@ The solver is optimized for high accuracy and efficiency by adapting both the or
 ```matlab
 [u, t, counter] = pc19(f, t0, y0, tf, tol);
 [u, t, counter] = pc19(f, t0, y0, tf, tol, maxord);
-
+```
 ### Input Arguments
 
 | Argument | Type     | Default | Description                                                                 |
