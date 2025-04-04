@@ -59,3 +59,13 @@ The solver is optimized for high accuracy and efficiency by adapting both the or
 | `t`        | vector   | Time steps corresponding to the solution                                    |
 | `counter`  | integer  | Number of function evaluations performed during integration                 |
 
+## Examples
+Two test cases are included. To run both test cases, simply run the full script containing the example calls to `pc19` and the visualizations.
+### Three-Body Orbital Problem
+Simulates a celestial mechanics system with gravitational interactions. Compares `pc19` to MATLAB’s `ode45` and `ode113`.
+### Highly Oscillatory "Wiggly" Function
+Solves a nonlinear ODE with a known exact solution to test solver accuracy.
+
+
+## Acknowledgements
+Thank you to Professor Mark Gockenbach for the invaluable guidance in preparing this algorithm. If you find this code useful in your research or publication, please cite this repository as appropriate.
