@@ -6,17 +6,6 @@ The solver is optimized for high accuracy and efficiency by adapting both the or
 
 ---
 
-## Features
-
-- Variable-order Adams methods (orders 2 through 9)
-- Adaptive time-stepping based on local truncation error (LTE)
-- Initial step taken with **Heun's Method**
-- Local extrapolation using PLTE (Predictor Local Truncation Error)
-- Flexible for both scalar and system ODEs
-- Compatible with MATLAB’s `f(t, y)` function handle format
-
----
-
 ## File Overview
 
 | File | Description |
