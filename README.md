@@ -37,3 +37,25 @@ The solver is optimized for high accuracy and efficiency by adapting both the or
 ```matlab
 [u, t, counter] = pc19(f, t0, y0, tf, tol);
 [u, t, counter] = pc19(f, t0, y0, tf, tol, maxord);
+
+### Input Arguments
+
+| Argument | Type     | Default | Description                                                                 |
+|----------|----------|---------|-----------------------------------------------------------------------------|
+| `f`      | function handle | **required** | Function handle representing the ODE system, i.e., `f(t, y)` |
+| `t0`     | float    | **required** | Initial time                                                              |
+| `y0`     | vector   | **required** | Initial condition(s) for the ODE system                                   |
+| `tf`     | float    | **required** | Final time                                                                |
+| `tol`    | float    | **required** | Global error tolerance                                                    |
+| `maxord` | integer  | `9`     | Maximum order of the method to be used (allowed: 2–9)                      |
+
+---
+
+### Output Values
+
+| Output     | Type     | Description                                                                 |
+|------------|----------|-----------------------------------------------------------------------------|
+| `u`        | matrix   | Solution values; each row corresponds to the solution vector at a time step |
+| `t`        | vector   | Time steps corresponding to the solution                                    |
+| `counter`  | integer  | Number of function evaluations performed during integration                 |
+
